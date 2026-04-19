@@ -1,5 +1,0 @@
-$if(include-before-body)$
-$include-before-body$
-$endif$
-
-$body$
