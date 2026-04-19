@@ -1,0 +1,14 @@
+format:
+  pdf:
+    documentclass: report
+    papersize: A4
+    fontsize: 11pt
+
+    include-in-header:
+      - text: |
+          \usepackage{polski}
+          \usepackage[utf8]{inputenc}
+          \usepackage[margin=3.5cm]{geometry}
+          \usepackage{graphicx}
+
+    include-before-body: partials/titlepage.tex
