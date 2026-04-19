@@ -24,7 +24,7 @@ contributes:
         \usepackage{graphicx}
 
       template-partials:
-        - "partials/titlepage.tex"
+        - "partials/title.tex"
 
       format-resources:
         - logo_AGH.pdf
