@@ -15,7 +15,6 @@ contributes:
       number-sections: true
 
       bibliography: refs.bib
-      cite-method: biblatex
 
       header-includes: |
         \usepackage{polski}

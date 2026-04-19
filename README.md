@@ -1,9 +1,6 @@
 # Quarto template for AGH BEng/MSc theses
 
-There are two alternative ways to use this template:
-  - set it up in an existing Quarto project, execute `quarto add habemus-python/quarto-agh-thesis`
-  - start a new blank project, execute `quarto use template ...` (TODO)
-  - start a new git repo based on a template repo (TODO)
+To start a new blank project, execute `quarto use template habemus-python/quarto-agh-thesis`.
 
 To render it to a pdf, do: `quarto render thesis.ipynb --execute`.
 
