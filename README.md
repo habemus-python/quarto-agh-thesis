@@ -2,7 +2,7 @@
 
 To start a new blank project, execute `quarto use template habemus-python/quarto-agh-thesis`.
 
-To render it to a pdf, do: `quarto render thesis.ipynb --execute`.
+To render it to a pdf, do: `quarto render thesis.ipynb`.
 
 Note that to make it work, `quarto` needs to be executed in an environment in which the following tools work OK:
 - [Jupyter](https://jupyter.org/) (on Debian/Ubuntu: `apt-get install jupyter`)
