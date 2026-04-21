@@ -13,7 +13,12 @@ contributes:
       toc: true
       toc-depth: 3
       number-sections: true
-
+      
+      cite-method: biblatex
+      biblatexoptions:
+        - backref=true
+        - backend=biber
+        - style=authoryear
       bibliography: refs.bib
 
       header-includes: |
@@ -21,6 +26,7 @@ contributes:
         \usepackage[utf8]{inputenc}
         \usepackage[margin=3.5cm]{geometry}
         \usepackage{graphicx}
+        \usepackage[colorlinks=true,allcolors=black]{hyperref}
 
       template-partials:
         - "partials/before-body.tex"
