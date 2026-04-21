@@ -36,7 +36,7 @@ jobs:
         run: quarto --version
 
       - name: Install TinyTeX
-        run: quarto install tinytex --no-prompt
+        run: #quarto install tinytex --no-prompt
 
       - name: Install LaTeX packages (incl. biber)
         run: |
@@ -60,7 +60,7 @@ jobs:
 
       - name: Test template installation
         run: |
-          quarto use template . test-project --no-prompt
+          quarto use template . --dir test-project --no-prompt
 
       - name: Render example notebook to PDF
         run: |
