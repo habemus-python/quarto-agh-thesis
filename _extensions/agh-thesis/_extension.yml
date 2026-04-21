@@ -31,5 +31,5 @@ contributes:
       template-partials:
         - "partials/before-body.tex"
 
-      resources:
+      format-resources:
         - logo_AGH.pdf
