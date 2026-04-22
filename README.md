@@ -1,4 +1,4 @@
-# Quarto template for AGH BEng/MSc theses
+# 🎓 Quarto template for AGH BEng/MSc theses
 
 This template aims to:
 - 📦 encapsulate all components of a BEng/MSc thesis into a single Jupyter/Python notebook,
@@ -9,15 +9,17 @@ This template aims to:
 - 🌍 handle correctly multi-lingual content (Polish letters, etc),
 - 📐 provide reasonable defaults for line spacing, font sizes, margins, etc.
 
-## How to use it
+## 🚀 How to use it
 
 To start a new blank project, execute `quarto use template habemus-python/quarto-agh-thesis`.
 
 To render it to a pdf, do: `quarto render thesis.ipynb`.
 
-## Dependencies
+## ⚙️  Dependencies
 
-Note: to make it work, `quarto` needs to be executed in an environment with the following tools available (in `$PATH`):
+To get information on how to install Quarto, [read the friendly manual](https://quarto.org/docs/get-started/).
+
+Note: `quarto` needs to be executed in an environment with the following tools available (in `$PATH`):
 - [Jupyter](https://jupyter.org/) and some common Python packages:
    * using `pip`: `pip install jupyter matplotlib pyyaml nbformat nbclient`
    * on Debian/Ubuntu using APT: `apt-get install jupyter python3-matplotlib python3-yaml`
@@ -37,12 +39,12 @@ Note: to make it work, `quarto` needs to be executed in an environment with the 
 
 The above installation steps are tested on CI with [this workflow](https://github.com/habemus-python/quarto-agh-thesis/blob/main/.github/workflows/test.yml).
 
-## Further reading
+## 📚 Further reading
 
 See [Quarto docs](https://quarto.org/docs/extensions/starter-templates.html#using-a-template) 
   to learn more about using templates.
 
-## Credits
+## 👥 Credits
 
 Title page based on [Overleaf template](https://www.overleaf.com/latex/templates/praca-dyplomowa/kbwcrcmczypy) 
   by [Krzysztof Malarz](https://home.agh.edu.pl/~malarz/).
