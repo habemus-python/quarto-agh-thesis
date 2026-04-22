@@ -10,7 +10,7 @@ Note: to make it work, `quarto` needs to be executed in an environment with the 
    * on Debian/Ubuntu using APT: `apt-get install jupyter python3-matplotlib python3-yaml`
 - [LuaTeX](https://en.wikipedia.org/wiki/LuaTeX) and several [LaTeX packages](https://ctan.org/):
    * on Debian/Ubuntu using APT: `apt-get install texlive-luatex texlive-latex-recommended texlive-lang-polish texlive-latex-extra`
-   * on macOS using Homebres: `brew install texlive`
+   * on macOS using Homebrew: `brew install texlive`
    * on Windows using Quarto: `quarto install tinytex`
 - [Biber](https://en.wikipedia.org/wiki/Biber_(LaTeX)):
    * on Debian/Ubuntu using APT: `apt-get install biber`
