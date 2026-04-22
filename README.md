@@ -20,7 +20,11 @@ To render it to a pdf, do: `quarto render thesis.ipynb`.
 With the default notebook unchanged, the resultant pdf should look like:
 
 <p align="center">
-    <img src="https://github.com/habemus-python/quarto-agh-thesis/releases/download/tip/thesis.gif" alt="pdf converted to animated gif">
+    <img 
+        src="https://github.com/habemus-python/quarto-agh-thesis/releases/download/tip/thesis.gif" 
+        alt="pdf converted to animated gif"
+        width="50%"
+    />
 </p>
 
 ## ⚙️  Dependencies
