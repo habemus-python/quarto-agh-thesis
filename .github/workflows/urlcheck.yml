@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v6
       - uses: urlstechie/urlchecker-action@master
         with:
-          file_types: .md, .ipynb
+          file_types: .md,.ipynb
           print_all: false
           verbose: true
           timeout: 20
