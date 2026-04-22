@@ -1,12 +1,13 @@
 # 🎓 Quarto template for AGH BEng/MSc theses
 
-This template aims to:
+This template aims to (by-design):
 - 📦 encapsulate all components of a BEng/MSc thesis into a single Jupyter/Python notebook,
-- 🔄 provide automation ensuring code-generated plots are in-sync with the code,
+- 🔄 automate generation of plots, tables and in-text numerical values,
 - 📈 enforce vector graphics for matplotlib plots,
-- 🔗 provide clickable references - with links from the text to the bibliography, as well as from the bibliography to the citing locations,
+- 🔗 orchestrate clickable hyperlinks (incl. to the bibliography and from there to the citing locations),
 - 💻 offer code listings with syntax-highlighting,
 - 🌍 handle correctly multi-lingual content (Polish letters, etc),
+- 📑 exemplify a robust bibliography setup,
 - 📐 provide reasonable defaults for line spacing, font sizes, margins, etc.
 
 ## 🚀 How to use it
