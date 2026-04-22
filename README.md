@@ -13,9 +13,15 @@ This template aims to (by design!):
 
 ## 🚀 How to use it
 
-To start a new blank project, execute `quarto use template habemus-python/quarto-agh-thesis`.
+To start a new project, execute `quarto use template habemus-python/quarto-agh-thesis`.
 
 To render it to a pdf, do: `quarto render thesis.ipynb`.
+
+With the default notebook unchanged, the resultant pdf should look like:
+
+<p align="center">
+    <img src="https://github.com/habemus-python/quarto-agh-thesis/releases/download/tip/thesis.gif" alt="pdf converted to animated gif">
+</p>
 
 ## ⚙️  Dependencies
 

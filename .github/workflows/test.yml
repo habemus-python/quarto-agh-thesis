@@ -4,6 +4,9 @@ defaults:
   run:
     shell: bash -ex {0}
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
