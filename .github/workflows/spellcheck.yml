@@ -1,0 +1,23 @@
+name: spellcheck
+
+defaults:
+  run:
+    shell: bash
+
+on:
+  schedule:
+    - cron: '0 13 * * 4'
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: pip install nbconvert ipykernel
+      - run: python -m nbconvert --to markdown *.ipynb
+      - uses: rojopolis/spellcheck-github-actions@0.54.0
+        with:
+          spell_checker: hunspell
+
