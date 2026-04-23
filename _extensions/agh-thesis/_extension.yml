@@ -26,6 +26,7 @@ contributes:
         \usepackage[utf8]{inputenc}
         \usepackage[margin=3.5cm]{geometry}
         \usepackage{graphicx}
+        \usepackage{epigraph}
         \usepackage{xcolor}
         \definecolor{aghgreen}{HTML}{00693C}
         \definecolor{aghblack}{HTML}{1E1E1E}
