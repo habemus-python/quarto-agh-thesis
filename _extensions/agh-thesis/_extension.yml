@@ -30,6 +30,7 @@ contributes:
         \definecolor{aghgreen}{HTML}{00693C}
         \definecolor{aghblack}{HTML}{1E1E1E}
         \definecolor{aghred}{HTML}{A71930}
+        \linespread{1.2}
 
       colorlinks: true
       linkcolor: aghred
