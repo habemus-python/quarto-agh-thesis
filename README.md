@@ -15,15 +15,15 @@ This template aims to (by design!):
 
 ## 🚀 How to use it
 
-To start a new project, execute `quarto use template habemus-python/quarto-agh-thesis`.
+To start a new project, execute `quarto use template habemus-python/quarto-reproducible-thesis`.
 
 To render it to a pdf, do: `quarto render thesis.ipynb`.
 
-With the [default notebook unchanged](https://github.com/habemus-python/quarto-agh-thesis/blob/main/thesis.ipynb), the resultant pdf looks like this (generated on CI):
+With the [default notebook unchanged](https://github.com/habemus-python/quarto-reproducible-thesis/blob/main/thesis.ipynb), the resultant pdf looks like this (generated on CI):
 
 <p align="center">
     <img 
-        src="https://github.com/habemus-python/quarto-agh-thesis/releases/download/tip/thesis.gif" 
+        src="https://github.com/habemus-python/quarto-reproducible-thesis/releases/download/tip/thesis.gif" 
         alt="pdf converted to animated gif"
         width="50%"
     />
@@ -51,7 +51,7 @@ The template requires `quarto` to be executed in an environment with the followi
    * on macOS using Homebrew: `brew install librsvg`
    * on Windows using Chocolatey: `choco install rsvg-convert`
 
-The above installation steps are tested on CI with [this workflow](https://github.com/habemus-python/quarto-agh-thesis/blob/main/.github/workflows/test.yml).
+The above installation steps are tested on CI with [this workflow](https://github.com/habemus-python/quarto-reproducible-thesis/blob/main/.github/workflows/test.yml).
 
 ## 📚 Further reading
 
