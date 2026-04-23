@@ -19,6 +19,7 @@ contributes:
         - backref=true
         - backend=biber
         - style=authoryear
+        - natbib=true
       bibliography: refs.bib
 
       header-includes: |
@@ -32,6 +33,9 @@ contributes:
         \definecolor{aghblack}{HTML}{1E1E1E}
         \definecolor{aghred}{HTML}{A71930}
         \linespread{1.2}
+        \renewcommand*{\bibfont}{\secondarysize}
+        \usepackage{etoolbox}
+        \apptocmd{\tableofcontents}{\clearpage}{}{}
 
       colorlinks: true
       linkcolor: aghred
