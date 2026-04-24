@@ -23,18 +23,17 @@ contributes:
       bibliography: refs.bib
 
       header-includes: |
-        \usepackage{polski}
+        \usepackage{polski,graphicx,epigraph,xcolor,etoolbox,abstract}
+        \usepackage[english,polish]{babel}
         \usepackage[utf8]{inputenc}
         \usepackage[margin=3.5cm]{geometry}
-        \usepackage{graphicx}
-        \usepackage{epigraph}
-        \usepackage{xcolor}
+        \renewcommand{\abstracttextfont}{\small}  
+
         \definecolor{aghgreen}{HTML}{00693C}
         \definecolor{aghblack}{HTML}{1E1E1E}
         \definecolor{aghred}{HTML}{A71930}
         \linespread{1.2}
         \renewcommand*{\bibfont}{\secondarysize}
-        \usepackage{etoolbox}
         \apptocmd{\tableofcontents}{\clearpage}{}{}
 
       colorlinks: true
